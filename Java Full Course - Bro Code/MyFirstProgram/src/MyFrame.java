@@ -6,12 +6,12 @@ public class MyFrame extends JFrame {
     
     MyFrame() {
         this.setTitle("MyEventsUiA");
-        this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
+        this.setDefaultCloseOperation(MyFrame.EXIT_ON_CLOSE);
         this.setResizable(false);
         this.setSize(1500, 1500);
         this.setVisible(true);
         ImageIcon image = new ImageIcon("logo.png");
         this.setIconImage(image.getImage());
-        this.getContentPane().setBackground(new Color(0x123456));
+        //this.getContentPane().setBackground(new Color(0x123456));
     }
 }
